@@ -1,0 +1,32 @@
+Name     Lab2_m ;
+PartNo   00 ;
+Date     3/1/2021 ;
+Revision 01 ;
+Designer Engineer ;
+Company  University of Colorado ;
+Assembly None ;
+Location  ;
+Device   virtual ;
+
+/* *************** INPUT PINS *********************/
+PIN  2   = A15                     	; /*                                 */ 
+PIN  6   = RD                        ; /*                                 */ 
+PIN  8   = PSEN                      		; /*                                 */ 
+
+PIN 9 = WR ;
+/* *************** OUTPUT PINS *********************/
+PIN  12   = READ                        ; /*                                 */ 
+PIN  13   = CSPERIPH                        ; /*                                 */ 
+
+PIN  14 = WRBAR;
+
+
+
+/* *************** LOGIC *********************/
+READ = RD & PSEN;				/*oe bar of NVRAM */
+CSPERIPH = A15;					/*CE BAR OF NVRAM*/	
+WRBAR = (WR # A15);				/**/
+
+
+
+

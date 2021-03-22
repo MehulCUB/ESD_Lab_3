@@ -1,0 +1,18 @@
+Name     Lab2_m;
+PartNo   00;
+Date     3/1/2021;
+Revision 01;
+Designer Engineer;
+Company  University of Colorado;
+Assembly None;
+Location ;
+Device   virtual;
+
+
+ORDER: RD, PSEN, READ, A15, CSPERIPH, WR, WRBAR; 
+
+
+VECTORS:
+11*1*1*
+00*1*1*
+10*0*0*

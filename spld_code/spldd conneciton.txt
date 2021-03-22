@@ -1,0 +1,18 @@
+SPLD connections 
+
+
+// input 
+PIN  2   = A15                      	
+PIN  3   = A14                      	
+PIN  5   = A13                        	
+PIN  6   = A12                        	
+
+PIN  7   = RD                        
+PIN  8   = PSEN   
+
+/// output 
+
+PIN  12   = READ                        
+PIN  13   = CSPERIPH                        
+PIN  14   = OE                        
+PIN  15   = CE                        

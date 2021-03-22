@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ESD_Schematic_Lab2_Mehul-rescue)(type Legacy)(uri ${KIPRJMOD}/ESD_Schematic_Lab2_Mehul-rescue.lib)(options "")(descr ""))
+  (lib (name ESD_Lab3_Schematic_Mehul-rescue)(type Legacy)(uri ${KIPRJMOD}/ESD_Lab3_Schematic_Mehul-rescue.lib)(options "")(descr ""))
+)

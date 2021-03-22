@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1616266648 source:c:\0_esd\0_esd_lab_heap_final\0_esd_lab_heap_final\main.c
+	<mcs51/at89c51ed2.h>
+	<mcs51/mcs51reg.h>
+	<mcs51/8051.h>
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<ctype.h>
+

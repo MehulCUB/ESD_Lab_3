@@ -1,0 +1,18 @@
+#WAVEFORM
+#H Name     Lab2_m;
+#H PartNo   00;
+#H Date     3/1/2021;
+#H Revision 01;
+#H Designer Engineer;
+#H Company  University of Colorado;
+#H Assembly None;
+#H Location ;
+#H Device   virtual;
+#H 
+#H 
+#H ORDER: RD, PSEN, READ, A15, CSPERIPH, WR, WRBAR; 
+#H 
+#H 
+#V 0001 11H1H1H
+#V 0002 00L1H1H
+#V 0003 10L0L0L

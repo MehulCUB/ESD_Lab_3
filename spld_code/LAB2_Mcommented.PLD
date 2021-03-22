@@ -1,0 +1,29 @@
+Name     Lab2_m ;
+PartNo   00 ;
+Date     3/1/2021 ;
+Revision 01 ;
+Designer Engineer ;
+Company  University of Colorado ;
+Assembly None ;
+Location  ;
+Device   virtual ;
+
+/* *************** INPUT PINS *********************/
+PIN  2   = A15                     	; /*  Pin 2 SPLD - mcua15                               */ 
+PIN  6   = RD                        ; /* Pin 6 SPLD - mcua rd                                */ 
+PIN  8   = PSEN                      ; /* Pin 8 SPLD - mcua PSEN                               */ 
+PIN  9 	 = WR ;						  ; /* Pin 9 SPLD - mcua WR                                */ 
+/* *************** OUTPUT PINS *********************/
+PIN  12   = READ      ; /*oe bar of NVRAM */
+PIN  13   = CSPERIPH  ; /*CE BAR OF NVRAM*/ 
+PIN  14 = WRBAR;		/*we bar of nvram*/	
+
+
+/* *************** LOGIC *********************/
+READ = RD & PSEN;				/*oe bar of NVRAM */
+CSPERIPH = A15;					/*CE BAR OF NVRAM*/	
+WRBAR = (WR # A15);				/*we bar of NVRAM*/
+
+
+
+

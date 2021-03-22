@@ -1,0 +1,1 @@
+"./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "./source/UART0_funcs.obj" "./source/init_funcs.obj" "./source/interrupt_funcs.obj" "./source/main.obj" "./source/temperature_ADC.obj" "../msp432p401r.cmd" -llibc.a 
